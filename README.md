@@ -31,6 +31,9 @@ adrBarang createElementBarang(infotypeChild x);
 
 void jumlahBarangKeseluruhan(ListKategori &L);
 
+
+void updateKategori(ListKategori &L, string jenisBarang, kategori namaKategoriBaru);
+
 void menu();
 
 void tambahDataAwal(ListKategori &LK);
